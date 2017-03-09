@@ -1,0 +1,167 @@
+
+body {
+	background: #dedede;
+}
+
+.nav{
+	width: 100%;
+	height: 60px;
+	background: #333333;
+	
+}
+
+.navLogo {
+	height: 60px;
+	width: 50%;
+	float: left;
+	background: url("./logo.png") no-repeat 40px 10px;
+}
+.nav ul {
+	float: right;
+}
+
+.nav li {
+	float: left;
+	height: 30px;
+	margin-right:30px;	
+}
+ .nav li>a {
+ 	color: #fff;
+ 	text-decoration: none;
+ }
+
+ .nav li>a:hover {
+ 	color: #a7a7a7;
+ }
+
+.container {
+	height: 100%;
+	width: 92%;
+	border: 1px solid #cdcdcd;
+	box-shadow: 2px 2px 5px #888888;
+	background: #fff;
+	margin: 20px auto;
+	padding: 38px 20px;
+
+}
+address {
+	font-size: 14px;
+}
+
+.container a {
+	color: #0700e5;
+}
+
+.container p {
+	font-size: 15px;
+	text-indent: 30px;
+}
+
+.container img {
+	width: 350px;
+	height: 320px;
+	margin: 5px;
+}
+
+.list-column li {
+	list-style-type: none;
+	margin: 10px 0;
+}
+
+.pic-list {
+	width: 230px;
+	height: 230px;
+	border: 1px solid #d6d6d6;
+	text-align: center;
+	margin: 15px 40px;
+}
+
+.pic-list p {
+	text-indent: 0;	
+}
+
+.pic-list img {
+	width: 200px;
+	height: 160px;
+	padding-bottom: 5px;
+}
+.rank-list li {
+	margin: 10px 15px;
+}
+
+.tab-column {
+	width: 100%;
+	border: none;
+	margin-top: 2px;
+	text-align: left;
+	border-collapse: collapse;
+}
+.tab-column thead {
+	background: #333333;
+	color: #fff;
+}
+
+.tab-column td {
+	border: 1px solid #d0d0d0;
+	padding: 6px;
+} 
+.tab-column tfoot {
+	background: #ccc;
+}
+.tab-column tfoot td {
+	border: none;
+}
+.side-col {
+	border-left: 3px solid #d0d0d0;
+	padding:1px 10px; 
+}
+
+.ifo-column li {
+	list-style-type: none;
+	height: 24px;
+	margin-top: 10px;
+	position: relative;
+	margin-left: 290px;
+}
+
+.basic label {
+	position: absolute;
+	width: 300px;
+	text-align: right;
+	left: -320px;
+}
+.ifo-column p {
+	text-indent: 0px;
+	color: #bbb;
+}
+.ifo-column  span {
+	position: absolute;
+	width: 300px;
+	text-align: right;
+	left: -320px;
+}
+
+
+#scribe {
+	width: 100%;
+}
+#submit {
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	background: #3355d0;
+	border-radius: 8px;
+	height: 40px;
+	width: 100%;
+	font-size: 16px;
+	color: #fff;
+	margin-top:60px; 
+}
+
+footer {
+	width: 100%;
+	height: 40px;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+}
